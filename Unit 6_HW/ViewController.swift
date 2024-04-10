@@ -66,6 +66,7 @@ class ViewController: UIViewController {
     
     //MARK: ball functions
     func createBall(){
+        print("XX-3 print")
         ball.frame = CGRect(x: 50, y: 50, width: 100, height: 100)
         ball.backgroundColor = generateColor()
         ball.layer.cornerRadius = 50
