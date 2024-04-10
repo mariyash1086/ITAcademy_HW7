@@ -143,7 +143,7 @@ class ViewController: UIViewController {
     //MARK: compare
     func compareXY(x:Int, y:Int) ->Bool {
     
-        
+        print("add new print for XX-3")
         let xBall:Int = Int(ball.frame.origin.x)
         let yBall: Int = Int(ball.frame.origin.y)
         
