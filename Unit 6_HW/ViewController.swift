@@ -60,7 +60,8 @@ class ViewController: UIViewController {
         yRight = Int(right.frame.origin.y)
          
         createBall()
-        
+        print("Hello world!")
+   
     }
     
     //MARK: ball functions
@@ -140,7 +141,7 @@ class ViewController: UIViewController {
     
     //MARK: compare
     func compareXY(x:Int, y:Int) ->Bool {
-    inter
+    
         
         let xBall:Int = Int(ball.frame.origin.x)
         let yBall: Int = Int(ball.frame.origin.y)
