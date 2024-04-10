@@ -17,6 +17,7 @@ enum direction{
 class ViewController: UIViewController {
 
   
+    @IBOutlet weak var test: UILabel!
     //MARK: Buttons
     @IBOutlet weak var UP: UIButton!
     @IBOutlet weak var down: UIButton!
@@ -60,7 +61,6 @@ class ViewController: UIViewController {
         yRight = Int(right.frame.origin.y)
          
         createBall()
-        print("Hello world!")
    
     }
     
